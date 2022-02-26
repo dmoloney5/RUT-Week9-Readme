@@ -1,8 +1,7 @@
 // Packages needed for this application
-const template = require('./template.js');
+const generateMarkdown = require('./utils/generateMarkdown.js');
 const inquirer = require('inquirer');
 const fs = require('fs');
-const writeToFile = require('./README.md');
 const util = require('util');
 const writeFileAsync = util.promisify(fs.writeFile);
 
@@ -104,7 +103,7 @@ return inquirer.prompt(
     {
         type: 'input',
         name: 'screenshot',
-        message: 'Provide provide a screenshot or video? (Require)',
+        message: 'Provide provide link to screenshot or video? (Require)',
         validate: screenInput => {
             if (screenInput) {
                 return true;
@@ -120,7 +119,7 @@ return inquirer.prompt(
 // TODO: Create a function to initialize app
 const init = () => {
     questions()
-      .then((answers) => writeFileAsync('README.md', template(answers)))
+      .then((answers) => writeFileAsync('README.md', generateMarkdown(answers)))
       .then(() => console.log('Successfully wrote to README.md'))
       .catch((err) => console.error(err));
   };
