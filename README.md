@@ -1,8 +1,7 @@
-const generateMarkdown = data => {
-  return `
-  # ${data.title}
+
+  # RUT-WEEK9-README
   ## Description
-  ${data.description}
+  This app is to create a good readme file.
   ## Table of Contents
   * [Installation](#installation)
   * [Credit](#credits)
@@ -11,17 +10,14 @@ const generateMarkdown = data => {
   * [License](#license)
   * [Questions](#questions)
   ## Installation
-  ${data.install}
+  open terminal and then run node index.js
   ## Credit
-  ${data.credit}
+  undefined
   ## Website
-  ${data.url}
+  N/A
   ## Repository
-  ${data.repo}
+  https://github.com/dmoloney5/RUT-Week9-Readme.git
   ## License
   ### The following apps were used: 
-  ${data.license}
-      `
-  }
-  
-  module.exports = generateMarkdown;;
+  Nodejs, Util, inquirer, and FS
+      
