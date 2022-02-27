@@ -29,5 +29,5 @@
   Nodejs, Util, Inquirer, and FS
   
   ## Video
-  [!](./youtube.jpg)](https://youtu.be/wcB79Ktz6XQ)
+  [![(./youtube.jpg)](https://youtu.be/wcB79Ktz6XQ)]
   
