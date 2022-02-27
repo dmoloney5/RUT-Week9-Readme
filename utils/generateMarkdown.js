@@ -27,7 +27,11 @@ const generateMarkdown = data => {
 
   ## License
   ### The following apps were used: 
-  ${data.license}`
+  ${data.license}
+  
+  ## Video
+  [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](${data.screenshot})
+  `
   }
   
   module.exports = generateMarkdown;;
