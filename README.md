@@ -2,7 +2,7 @@
   # RUT-WEEK9-README
 
   ## Description
-  This is to create a good Readme.md file using Nodejs
+  This is an app to create a good Readme.md file using Nodejs
 
   
   ## Table of Contents
@@ -13,7 +13,7 @@
   * [License](#License)
   
   ## Installation
-  Open Terminal and type "node index.js" and answer all the questions
+  Open Terminal and type "node index.js"
 
   ## Credit
   Dennis Moloney
@@ -29,5 +29,5 @@
   Nodejs, Util, Inquirer, and FS
   
   ## Video
-  [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://youtu.be/wcB79Ktz6XQ)
+  [!](./youtube.jpg)](https://youtu.be/wcB79Ktz6XQ)
   

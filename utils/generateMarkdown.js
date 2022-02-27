@@ -30,8 +30,8 @@ const generateMarkdown = data => {
   ${data.license}
   
   ## Video
-  [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](${data.screenshot})
+  [!](./youtube.jpg)](${data.screenshot})
   `
-  }
-  
-  module.exports = generateMarkdown;;
+}
+
+module.exports = generateMarkdown;;
