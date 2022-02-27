@@ -37,7 +37,7 @@ return inquirer.prompt(
     },
     {
         type: 'input',
-        name: 'credits',
+        name: 'credit',
         message: 'Provide the name of all collaborators! Use , to separate the names (Require)',
         validate: creditInput => {
             if (creditInput) {

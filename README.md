@@ -1,23 +1,31 @@
 
   # RUT-WEEK9-README
+
   ## Description
-  This app is to create a good readme file.
+  This is actually an javascript script to create a README.md file
+
+  
   ## Table of Contents
   * [Installation](#installation)
-  * [Credit](#credits)
+  * [Credit](#credit)
   * [Website](#url)
   * [Repository](#repo)
   * [License](#license)
   * [Questions](#questions)
+  * 
   ## Installation
-  open terminal and then run node index.js
+  open Terminal and then run "node index.js"
+
   ## Credit
-  undefined
+  Dennis Moloney
+
   ## Website
   N/A
+
   ## Repository
   https://github.com/dmoloney5/RUT-Week9-Readme.git
+  
   ## License
   ### The following apps were used: 
-  Nodejs, Util, inquirer, and FS
+  Nodejs, util, inquirer, and FS
       
