@@ -9,11 +9,10 @@ const generateMarkdown = data => {
   ## Table of Contents
   * [Installation](#installation)
   * [Credit](#credit)
-  * [Website](#url)
-  * [Repository](#repo)
-  * [License](#license)
-  * [Questions](#questions)
-  * 
+  * [Website](#Website)
+  * [Repository](#Respository)
+  * [License](#License)
+  
   ## Installation
   ${data.install}
 
@@ -25,11 +24,10 @@ const generateMarkdown = data => {
 
   ## Repository
   ${data.repo}
-  
+
   ## License
   ### The following apps were used: 
-  ${data.license}
-      `
+  ${data.license}`
   }
   
   module.exports = generateMarkdown;;
