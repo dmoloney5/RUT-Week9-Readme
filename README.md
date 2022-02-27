@@ -2,14 +2,14 @@
   # RUT-WEEK9-README
 
   ## Description
-  This is an app to create a good README file
+  This is app that will create a good README.md file
 
   
   ## Table of Contents
   * [Installation](#installation)
   * [Credit](#credit)
   * [Website](#Website)
-  * [Repository](#Respository)
+  * [Repository](#Repository)
   * [License](#License)
   
   ## Installation
@@ -19,10 +19,10 @@
   Dennis Moloney
 
   ## Website
-  N/A
+  https://github.com/dmoloney5/RUT-Week9-Readme.git
 
   ## Repository
-  https://github.com/dmoloney5/RUT-Week9-Readme.git
+  N/A
 
   ## License
   ### The following apps were used: 

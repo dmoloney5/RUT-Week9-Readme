@@ -10,7 +10,7 @@ const generateMarkdown = data => {
   * [Installation](#installation)
   * [Credit](#credit)
   * [Website](#Website)
-  * [Repository](#Respository)
+  * [Repository](#Repository)
   * [License](#License)
   
   ## Installation
